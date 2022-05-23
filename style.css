@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.home{
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+.headings{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+
+li{
+    display: inline-block;
+    padding: 0 20px;
+    border: 1px solid rgb(101, 61, 193);
+    color: rgb(101, 61, 193);
+    border-radius: 6px;
+    padding: 10px;
+}
+li:hover{
+    background:rgb(101, 61, 193);
+    color: #fff;
+}
+.hire{
+    margin-left: 40px;
+    border: 1px solid rgb(101, 61, 193);
+    color: #fff;
+    background:rgb(101, 61, 193) ;
+    border-radius: 6px;
+    padding: 10px;
+}
+.hire:hover{
+    background-color: transparent;
+    color: rgb(101, 61, 193);
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0, 0, 0.5);
+    height: 520px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background:url("images\ \(13\).jpg") no-repeat center center/cover;
+    height: 600px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+.headings{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 10px 0px;
+
+}
+.btn{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid rgb(101, 61, 193);
+    color: rgb(101, 61, 193);
+    outline: none;
+    transition: .6s ease;
+    margin-top: 10px;
+    border-radius: 6px;
+
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(101, 61, 193);
+    color: white;
+    font-weight: bold;
+}
+
+.about, .services, .skills{
+    font-family: 'poppins', sans-serif;
+}
+.about .about-content .column-left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.about .about-content .column-left{
+    width: 45%;
+}
+.about .about-content .column-right{
+    width: 55%;
+    
+}
+.about .about-content .column-right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.about .about-content .column-right .text span{
+    color: rgb(101, 61, 193);
+}
+.about .about-content .column-right p{
+    text-align: justify;
+}
+.about .about-content .column-right a{
+    display: inline-block;
+    background: rgb(101, 61, 193);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid rgb(101, 61, 193);
+    transition: all 0.3s ease;
+}
+.about .about-content .column-right a:hover{
+    color: rgb(101, 61, 193);
+    background: none;
+}
+/* all similar content styling code */
+
+.about{
+    font-family: 'poppins', sans-serif;
+}
+.about .about-content
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* all similar content styling code */
+.max-width{
+    padding: 0 80px;
+    margin: auto;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 60px;
+   
+}
+.con1,.con2,.con3{
+    border: 1px solid red;
+    width: 250px;
+    height: auto;
+    padding: 20px ;
+    text-align: center;
+    border: none;
+    background-color: rgb(101, 61, 193);
+    border-radius: 6px;
+    color: white;
+}
+.con1:hover,.con2:hover,.con3:hover{
+    background-color: transparent;
+    color: rgb(101, 61, 193);
+}
+#work{
+    margin: 40px 0px;
+    background: rgba(0,0, 0, 0.5);
+    margin-bottom: 0px;
+}
+#work h1{
+    padding: 40px 0;
+    text-align: center;
+}
+.con1 p .con2 .con3 p{
+    padding: 20px 0;
+}
+/* portfolio section */
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0, 0, 0.9);
+    color: white;
+    align-items: center;
+    padding: 20px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: 10px;
+}
+.gallery img{
+    width: 350px;
+    height: 240px;
+    margin: 10px;
+}
+.five{
+    background-color: #fff;
+}
+.five5{
+    margin: 60px 80px;
+    text-align: center;
+    padding: 80px;
+    margin-bottom: 60px;
+
+}
+.client{
+    padding-top: 20px;
+}
+.client img{
+    border: 2px solid rgb(101, 61, 193) ;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.down{
+    padding-top: 20px;
+}
